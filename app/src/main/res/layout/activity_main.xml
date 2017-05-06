@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <com.android.tyw.library.DiscreteSeekBar
+        android:id="@+id/discrete_seek_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        app:dsb_duration="500"
+        app:dsb_height="8dp"
+        app:dsb_textColor="#1D1D1D"
+        app:dsb_textMargin="10dp"
+        app:dsb_textSize="18sp" />
+
+
+</LinearLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="DiscreteSeekBar">
+        <attr name="dsb_height" format="dimension" />
+        <attr name="dsb_background" format="reference" />
+        <attr name="dsb_progressBackground" format="reference" />
+        <attr name="dsb_divider" format="reference" />
+        <attr name="dsb_cursor" format="reference" />
+        <attr name="dsb_textColor" format="color" />
+        <attr name="dsb_textSize" format="dimension" />
+        <attr name="dsb_textMargin" format="dimension" />
+        <attr name="dsb_duration" format="integer" />
+    </declare-styleable>
+</resources>
